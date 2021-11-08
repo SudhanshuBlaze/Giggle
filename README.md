@@ -9,8 +9,6 @@ It is a fully responsive Google search clone built with React, Tailwind CSS. Sup
 
 **API** used to get search results: [Googe Search by apigeek](https://rapidapi.com/apigeek/api/google-search3)
 
-Firebase and Chat Engine are great tools to setup apps fast and easily.
-
 ## Set-Up locally
 
 - Clone this repo
