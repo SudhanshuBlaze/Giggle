@@ -1,7 +1,7 @@
 # Giggle⚡ (Google Clone)
 
 **Test it out:
-[Giggle](https://giggle-search.netlify.app)**
+[Giggle](https://giggle-search00.netlify.app/)**
 
 ## Description
 
