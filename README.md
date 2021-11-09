@@ -1,4 +1,4 @@
-# Giggle⚡ (Google Clone)
+# Giggle⚡ (Google Search Clone)
 
 **Test it out:
 [Giggle](https://giggle-search00.netlify.app/)**
