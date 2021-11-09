@@ -10,7 +10,7 @@ this would stop the server from getting spammed by the api calls */
 export const Search = () => {
   const [text, setText] = useState("Elon Musk");
   const { setSearchTerm } = useResultContext();
-  const [debouncedValue] = useDebounce(text, 300); //we to debounce text after each 300ms
+  const [debouncedValue] = useDebounce(text, 500); //we to debounce text after each 300ms
 
   useEffect(() => {
     if (debouncedValue) setSearchTerm(debouncedValue);
