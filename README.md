@@ -3,9 +3,12 @@
 **Test it out:
 [Giggle](https://giggle-search00.netlify.app/)**
 
+https://user-images.githubusercontent.com/63813872/140981607-b47194b6-184e-4b37-b03e-d9be8d62a82a.mov
+
+
 ## Description
 
-It is a fully responsive Google search clone built with React, Tailwind CSS. Supports Dark Mode.
+Search for up-to-date results, news, images,and videos.Built a fully responsive modern UI with integrated Dark mode using React and Tailwind CSS. Implemented Dynamic Routing using react-router-dom. Used useDebounce hook for debouncing fast changing search value. Deployed on Netlify.
 
 **API** used to get search results: [Googe Search by apigeek](https://rapidapi.com/apigeek/api/google-search3)
 
