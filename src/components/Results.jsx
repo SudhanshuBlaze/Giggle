@@ -100,11 +100,14 @@ export const Results = () => {
         </div>
       );
     case "/videos":
+      console.log(results);
+      // each search result object is 'video' and from each result object we get the video link
+      // and, give that link to <ReactPLayer/>, but some of the links we get are not of a YT video,
+      // due to which <ReactPlayer/> appears blank
       return (
         <div className="flex flex-wrap ">
           {results?.map((video, index) => (
             <div key={index} className="p-2">
-              {/* if there's link then only render video player */}
               {video.additional_links?.[0].href && (
                 <ReactPlayer
                   url={video.additional_links?.[0].href}

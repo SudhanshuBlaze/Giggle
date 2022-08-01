@@ -11,6 +11,7 @@ const App = () => {
     <div className={darkTheme ? "dark" : ""}>
       {/* container div */}
       <div className="bg-gray-200 dark:bg-gray-900 dark:text-gray-200 min-h-screen ">
+        {/* passing props to NavBar */}
         <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
         <Routes />
         <Footer />

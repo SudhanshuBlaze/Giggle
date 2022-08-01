@@ -9,6 +9,7 @@ export const ResultContextProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState();
 
   // /images, /videos, /search
+  // while calling "getResults()" function along with 'type' search term is also passed in the same string
   const getResults = async type => {
     setIsLoading(true);
 
@@ -29,7 +30,7 @@ export const ResultContextProvider = ({ children }) => {
 
     if (type.includes("/news")) setResults(data.entries);
     else if (type.includes("/images")) setResults(data.image_results);
-    else setResults(data.results);
+    else setResults(data.results); //for 'videos' also this case is triggered
 
     setIsLoading(false);
   };

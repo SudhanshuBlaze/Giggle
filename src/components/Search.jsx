@@ -11,7 +11,7 @@ export const Search = () => {
   const [text, setText] = useState("Elon Musk");
   const { setSearchTerm } = useResultContext();
   const [debouncedValue] = useDebounce(text, 500); //we to debounce text after each 500ms
-
+  // whenever "text" is changed, 500ms after that 'searchTerm' is set
   useEffect(() => {
     if (debouncedValue) setSearchTerm(debouncedValue);
     // eslint-disable-next-line
